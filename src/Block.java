@@ -4,7 +4,7 @@ public class Block{
     private String data;
     public String hash;
     public String prevHash;
-    private long timeStamp; // this will be as a number of seconds from 1/1/1970
+    private long timeStamp; // this will be as a number of milliseconds from 1/1/1970
 
     public Block(String data, String prevHash) {
         this.data = data;
