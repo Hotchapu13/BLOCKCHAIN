@@ -1,0 +1,15 @@
+import java.util.Date;
+
+public class Block{
+    private String data;
+    public String hash;
+    public String prevHash;
+    private long timeStamp; // this will be as a number of seconds from 1/1/1970
+
+    public Block(String data, String prevHash) {
+        this.data = data;
+        this.prevHash = prevHash;
+        this.timeStamp = new Date().getTime();
+    }
+
+}
