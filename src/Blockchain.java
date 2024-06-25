@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-// import com.google.gson.gsonBuilder;
 
 public class Blockchain {
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
@@ -13,6 +12,5 @@ public class Blockchain {
         Block thirdBlock = new Block("I'm the first block", secondBlock.hash);
         System.out.println("Hash for block 3: " + thirdBlock.hash);
 
-        // String blockchainJson = new Gsonbuilder().setPrettyPrinting().create().toJson(blockchain);
     }
 }
